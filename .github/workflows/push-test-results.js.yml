@@ -34,4 +34,4 @@ jobs:
         name: "user-info.json"
         json: '{"user":"${{ github.actor }}"}'
     # - run: npm test
-#     - run: npm run analyze-tests
+    - run: npm run analyze-tests
